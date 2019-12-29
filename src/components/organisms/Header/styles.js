@@ -50,7 +50,7 @@ export const MenuWrapper = styled.div`
   ${screen.sm} {
     position: absolute;
     top: 100%;
-    transform: translateY(-100%);
+    transform: translateY(-105%);
     left: 0;
     width: 100%;
     z-index: -2;

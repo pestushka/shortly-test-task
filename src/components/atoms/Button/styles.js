@@ -1,16 +1,17 @@
 import styled from 'styled-components'
 import { color, defaultTransition, screen } from 'config/theme'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.button`
   background: ${color.accent};
   border-radius: 28px;
   font-size: 20px;
   font-weight: 700;
   color: ${color.white};
-  padding: 8px 24px;
+  padding: 13px 24px;
   cursor: pointer;
   ${defaultTransition};
   text-align: center;
+  border: none;
 
   ${screen.sm_min} {
     &:hover {
