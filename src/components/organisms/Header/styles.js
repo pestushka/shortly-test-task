@@ -32,7 +32,6 @@ export const Menu = styled.div`
 export const Link = styled.a`
   color: ${color.gray_dark};
   ${defaultTransition};
-  cursor: pointer;
 
   &:not(:last-of-type) {
     margin-right: 30px;
