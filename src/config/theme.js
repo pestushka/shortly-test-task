@@ -4,6 +4,7 @@ export const color = {
   main: '#4B3F6B',
   gray_dark: '#9E9AA8',
   gray: '#BFBFBF',
+  gray_light: '#EFF1F7',
   accent: '#2BD0D0',
   accent_hover: '#9AE3E3',
   white: '#FFF',
