@@ -58,7 +58,7 @@ export const Heading = styled.h1`
   }
 `
 
-export const Text = styled.div`
+export const Text = styled.p`
   color: ${color.gray_dark};
 
   ${screen.md_min} {

@@ -58,7 +58,7 @@ export const Column = styled.div`
   }
 `
 
-export const Title = styled.div`
+export const Title = styled.span`
   margin-bottom: 24px;
   font-weight: 700;
   font-size: 16px;

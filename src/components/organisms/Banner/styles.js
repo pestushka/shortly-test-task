@@ -9,15 +9,15 @@ export const Wrapper = styled.div`
   text-align: center;
 
   ${screen.sm_min} {
-    padding: 56px 0;
+    padding: 56px 24px;
   }
 
   ${screen.sm} {
-    padding: 90px 0;
+    padding: 90px 24px;
   }
 `
 
-export const Text = styled.div`
+export const Text = styled.h2`
   font-weight: 700;
   line-height: 1.2;
 

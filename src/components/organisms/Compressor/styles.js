@@ -47,7 +47,7 @@ export const InputPlaceholder = styled.span`
   }
 `
 
-export const InputError = styled.div`
+export const InputError = styled.p`
   color: ${color.error};
   display: none;
   ${defaultTransition};
@@ -177,7 +177,7 @@ export const Item = styled.div`
   }
 `
 
-export const Value = styled.div`
+export const Value = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
 
@@ -186,13 +186,9 @@ export const Value = styled.div`
     padding-left: 8px;
     padding-right: 32px;
   }
-
-  ${screen.sm} {
-    width: 100%;
-  }
 `
 
-export const Result = styled.div`
+export const Result = styled.p`
   color: ${color.accent};
 
   ${screen.sm_min} {
@@ -200,7 +196,6 @@ export const Result = styled.div`
   }
 
   ${screen.sm} {
-    width: 100%;
     margin: 12px 0;
 
     &:before {

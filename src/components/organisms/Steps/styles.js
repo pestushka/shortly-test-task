@@ -20,14 +20,14 @@ export const Caption = styled.div`
   margin: 0 auto 100px;
 `
 
-export const Heading = styled.div`
+export const Heading = styled.h2`
   font-weight: 700;
-  letter-spacing: -1px;
   margin-bottom: 18px;
   color: ${color.dark};
 
   ${screen.sm_min} {
     font-size: 40px;
+    letter-spacing: -1px;
   }
 
   ${screen.sm} {
@@ -36,7 +36,7 @@ export const Heading = styled.div`
   }
 `
 
-export const Text = styled.div`
+export const Text = styled.p`
   color: ${color.gray_dark};
   letter-spacing: 0.1px;
 
@@ -133,14 +133,14 @@ export const Icon = styled.div`
   }
 `
 
-export const Name = styled.div`
+export const Name = styled.p`
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 14px;
   color: ${color.dark};
 `
 
-export const Description = styled.div`
+export const Description = styled.p`
   color: ${color.gray_dark};
   line-height: 1.8;
 `
