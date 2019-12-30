@@ -8,6 +8,7 @@ export const color = {
   accent: '#2BD0D0',
   accent_hover: '#9AE3E3',
   white: '#FFF',
+  error: '#F46363',
 }
 
 export const defaultTransition = 'transition: all 0.3s ease'

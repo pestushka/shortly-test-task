@@ -1,6 +1,7 @@
 import React from 'react'
 import { Wrapper, Text } from './styles'
-import background from 'assets/banner-background.png'
+
+import background from 'assets/banner-background.png' // i use
 import Button from 'components/atoms/Button'
 
 const Banner = () => (
